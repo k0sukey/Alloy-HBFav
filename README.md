@@ -1,4 +1,4 @@
-@naoya さんの HBFav を Titanium Alloy で実装してみたテストです。
+[@naoya](https://github.com/naoya) さんの HBFav を Titanium Alloy で実装してみたテストです。
 気が向いたら Android も動くようにする、かも。
 
 （スクロールがちょい重ですね。。。）
