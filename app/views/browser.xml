@@ -1,0 +1,18 @@
+<Alloy>
+	<Window backButtonTitle="">
+		<WebView id="web" onBeforeload="doBeforeload"/>
+		<Toolbar>
+			<Items>
+				<Label id="back" onClick="doBack" onTouchstart="doTouchstart" onTouchcancel="doTouchcancel" onTouchend="doTouchend">\uf104</Label>
+				<FlexSpace/>
+				<Label id="forward" onClick="doForward" onTouchstart="doTouchstart" onTouchcancel="doTouchcancel" onTouchend="doTouchend">\uf105</Label>
+				<FlexSpace/>
+				<Button id="refresh" onClick="doRefresh"/>
+				<FlexSpace/>
+				<Button id="safari" onClick="doSafari"/>
+				<FlexSpace/>
+				<Label id="count"/>
+			</Items>
+		</Toolbar>
+	</Window>
+</Alloy>

@@ -1,0 +1,40 @@
+'Window': {
+	backgroundColor: 'transparent'
+}
+'#base': {
+	top: 0,
+	right: 0,
+	bottom: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: '#000000',
+	opacity: 0.6
+}
+'Label': {
+	top: 200,
+	left: 20,
+	font: {
+		fontSize: 16
+	},
+	color: '#ffffff'
+}
+'TextField': {
+	top: 220,
+	right: 20,
+	left: 20,
+	width: Ti.UI.FILL,
+	height: 44,
+	font: {
+		fontSize: 16
+	},
+	color: '#ffffff'
+}
+'#border': {
+	top: 265,
+	right: 20,
+	left: 20,
+	width: Ti.UI.FILL,
+	height: 1,
+	backgroundColor: '#ffffff'
+}

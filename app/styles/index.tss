@@ -1,0 +1,99 @@
+'Window': {
+	backgroundColor: '#ffffff'
+}
+'ListItem': {
+	height: Ti.UI.SIZE,
+	backgroundColor: '#ffffff'
+}
+'#setting': {
+	font: {
+		fontFamily: 'FontAwesome'
+	}
+}
+'#proficon': {
+	top: 10,
+	bottom: 10,
+	left: 10,
+	width: 44,
+	height: 44,
+	backgroundColor: '#ffffff',
+	borderRadius: 4
+}
+'#username': {
+	top: 10,
+	right: 100,
+	left: 64,
+	width: Ti.UI.FILL,
+	height: 18,
+	backgroundColor: '#ffffff',
+	font: {
+		fontSize: 14,
+		fontWeight: 'bold'
+	},
+	color: '#111111'
+}
+'#createdAt': {
+	top: 10,
+	right: 10,
+	width: Ti.UI.SIZE,
+	height: 18,
+	backgroundColor: '#ffffff',
+	font: {
+		fontSize: 12
+	},
+	textAlign: Ti.UI.TEXT_ALIGNMENT_RIGHT,
+	color: '#aaaaaa'
+}
+'#vertical': {
+	top: 30,
+	right: 10,
+	bottom: 10,
+	left: 64,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: '#ffffff',
+	layout: 'vertical'
+}
+'#comment': {
+	top: 0,
+	right: 0,
+	bottom: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: '#ffffff',
+	font: {
+		fontSize: 14
+	},
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_TOP,
+	color: '#111111'
+}
+'#horizontal': {
+	top: 0,
+	right: 0,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: '#ffffff',
+	layout: 'horizontal'
+}
+'#favicon': {
+	top: 2,
+	left: 0,
+	width: 16,
+	height: 16,
+	backgroundColor: '#ffffff'
+}
+'#title': {
+	top: 0,
+	right: 0,
+	left: 4,
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	backgroundColor: '#ffffff',
+	font: {
+		fontSize: 14
+	},
+	verticalAlign: Ti.UI.TEXT_VERTICAL_ALIGNMENT_TOP,
+	color: '#0074d9'
+}

@@ -1,0 +1,41 @@
+'Window': {
+	backgroundColor: '#ffffff'
+}
+'WebView': {
+	top: 0,
+	right: 0,
+	bottom: 44,
+	left: 0,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL
+}
+'Toolbar': {
+	bottom: 0
+}
+'#back': {
+	width: 20,
+	height: Ti.UI.FILL,
+	font: {
+		fontFamily: 'FontAwesome',
+		fontSize: 32
+	},
+	color: '#007aff'
+}
+'#forward': {
+	width: 20,
+	height: Ti.UI.FILL,
+	font: {
+		fontFamily: 'FontAwesome',
+		fontSize: 32
+	},
+	color: '#007aff'
+}
+'#refresh': {
+	systemButton: Ti.UI.iPhone.SystemButton.REFRESH
+}
+'#safari': {
+	systemButton: Ti.UI.iPhone.SystemButton.ACTION
+}
+'#count': {
+	color: '#007aff'
+}

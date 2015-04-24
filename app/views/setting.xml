@@ -1,0 +1,8 @@
+<Alloy>
+	<Window>
+		<View id="base" onClick="doClose"/>
+		<Label>はてなID</Label>
+		<TextField id="username"/>
+		<View id="border"/>
+	</Window>
+</Alloy>

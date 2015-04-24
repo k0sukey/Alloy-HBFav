@@ -1,0 +1,39 @@
+<Alloy>
+	<NavigationWindow onOpen="doOpen">
+		<Window title="Alloy - HBFav">
+			<RightNavButton>
+				<Button onClick="doSetting">設定</Button>
+			</RightNavButton>
+			<ListView id="list" defaultTemplate="feed" onItemclick="doItemclick" onMarker="doLoad">
+				<RefreshControl id="refresh" onRefreshstart="doRefresh"/>
+				<Templates>
+					<ItemTemplate name="feed">
+						<ImageView id="proficon" bindId="proficon"/>
+						<Label id="username" bindId="username"/>
+						<Label id="createdAt" bindId="createdAt"/>
+						<View id="vertical">
+							<Label id="comment" bindId="comment"/>
+							<View id="horizontal">
+								<ImageView id="favicon" bindId="favicon"/>
+								<Label id="title" bindId="title"/>
+							</View>
+						</View>
+					</ItemTemplate>
+				</Templates>
+				<ListSection dataCollection="feed" dataTransform="doTransform">
+					<ListItem
+						template="{template}"
+						feed="{feed}"
+						proficon:image="{proficon}"
+						username:text="{username}"
+						createdAt:text="{createdAt}"
+						comment:bottom="{bottom}"
+						comment:height="{height}"
+						comment:text="{comment}"
+						favicon:image="{favicon}"
+						title:text="{title}"/>
+				</ListSection>
+			</ListView>
+		</Window>
+	</NavigationWindow>
+</Alloy>
